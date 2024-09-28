@@ -16,7 +16,7 @@ app.post('/generate-image', async (req, res) => {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `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`,
+            'Authorization': `Bearer YOUR_OPENAI_API_KEY`,
         },
         body: JSON.stringify({
             prompt: prompt,
