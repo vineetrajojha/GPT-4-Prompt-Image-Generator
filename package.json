@@ -1,35 +1,19 @@
 {
-  
-  "type": "module",
-  "name": "gpt-4-prompt-image-generator",
-  "version": "1.0.0",
-  "description": "---",
-  "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.20.3",
-    "express": "^4.21.0",
-    "node-fetch": "^3.3.2"
-  }
-}
-
-
-{
   "name": "gpt-4-prompt-image-generator",
   "version": "1.0.0",
   "description": "---",
   "main": "server.mjs",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.mjs"
   },
-  "type": "module",    // Add this if you're using ES modules
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.x.x",
+    "body-parser": "^1.x.x",
+    "node-fetch": "^2.x.x",
+    "dotenv": "^10.x.x" 
+  }
 }
